@@ -62,7 +62,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <stdlib.h>
  #include <sys/stat.h>
 /* #include <io.h> */
- 
+
  #include <stdlib.h>
  #include <setjmp.h>
  #include <assert.h>
@@ -91,6 +91,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "dpuma.h"
 #include "match_wd.h"
 #include "specprj.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 
