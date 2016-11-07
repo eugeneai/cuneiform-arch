@@ -75,6 +75,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "linear.h"
 #include "lang.h"
 //#include "linutil.h"	// 09.07.2001 E.P.
+#include "minmax.h"
 
 #include "compat_defs.h"
 

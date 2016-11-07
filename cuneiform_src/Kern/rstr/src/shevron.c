@@ -64,6 +64,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "lang_def.h"	// 31.08.2000 E.P.
 #include "ligas.h"
 #include "linutil.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 
@@ -721,4 +722,3 @@ end:
 
  return priznak;
 }
-

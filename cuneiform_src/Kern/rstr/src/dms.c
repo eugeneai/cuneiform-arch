@@ -76,6 +76,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "cuthdr.h"
 #include "dmconst.h"
 #include "func.h"
+#include "minmax.h"
 
 extern servBOX SBOX;
 extern int16_t best_answer_BOX;
@@ -340,4 +341,3 @@ int16_t rast_is_BOX_solid (CSTR_rast B1,int16_t scale)
 }
 //////////////////////
 //#endif
-

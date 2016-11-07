@@ -72,7 +72,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "lang.h"
 #include "func.h"
 #include "ukr.h"
-#include"linutil.h"
+#include "linutil.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 

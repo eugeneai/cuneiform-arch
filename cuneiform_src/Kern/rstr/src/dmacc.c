@@ -71,6 +71,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "ligas.h"
 #include "lang.h"
 #include "linutil.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 

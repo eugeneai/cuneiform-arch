@@ -72,6 +72,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "dpuma.h"
 
 #include "compat_defs.h"
+#include "minmax.h"
 
 extern uchar langUkr , langSer;
 //#define  PROTOCOL

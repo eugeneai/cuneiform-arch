@@ -75,6 +75,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "status.h"
 #include "linutil.h"	// 31.05.2002 E.P.
 
+#include "minmax.h"
 #include"compat_defs.h"
 
 extern uchar fax1x2;

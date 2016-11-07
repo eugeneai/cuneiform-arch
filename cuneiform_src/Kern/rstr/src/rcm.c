@@ -80,6 +80,7 @@
 #include "crling.h"
 #include "dpuma.h"
 #include "cline.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 

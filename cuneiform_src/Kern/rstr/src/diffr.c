@@ -66,6 +66,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "status.h"	// 08.09.2000 E.P.
 #include "lang_def.h"	// 08.09.2000 E.P.
 #include "linutil.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 

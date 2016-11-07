@@ -78,4 +78,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //{{AFX_INSERT_LOCATION}}
 // Microsoft Visual C++ will insert additional declarations immediately before the previous line.
 
+/*
+#define MAX(x,y) (((x)>(y) ? (x):(y)))
+#define MIN(x,y) (((x)<(y) ? (x):(y)))
+#define abs(x) ((x)>=0?(x):(-(x)))
+*/
+
 #endif // !defined(AFX_STDAFX_H__2F2CE069_0C55_11D3_83B3_0040C71166BA__INCLUDED_)

@@ -74,8 +74,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 # include <conio.h>
 # include <dos.h>
 
-#define MIN(x,y)  ((x < y)? (x) : (y))
-
 /*			Byte size data					*/
 
 typedef signed char		char;

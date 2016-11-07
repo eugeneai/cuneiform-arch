@@ -71,6 +71,7 @@ extern uchar *EVN_GetSegmentPool (void);
 #include "diffrb.h"
 #include "p2libr.h"
 #include "status.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 
@@ -3372,6 +3373,3 @@ switch( c->vers[0].let )
 
 return;
 }
-
-
-

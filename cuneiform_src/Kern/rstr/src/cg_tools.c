@@ -66,6 +66,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "dmconst.h"
 #include "cut_glue.h"
 #include "linutil.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 

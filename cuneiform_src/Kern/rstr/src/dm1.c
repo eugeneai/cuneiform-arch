@@ -78,6 +78,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "tm.h"     //10.4.95
 #include "status.h"
 #include "p2libr.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 

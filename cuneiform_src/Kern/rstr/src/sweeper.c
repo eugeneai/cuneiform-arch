@@ -69,6 +69,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "func.h"
 #include "ligas.h"
 #include "lang.h"
+#include "minmax.h"
 
 extern uint16_t actual_resolution;
 extern int16_t idshv;

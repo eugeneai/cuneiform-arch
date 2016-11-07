@@ -76,6 +76,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "leo.h"
 #include "ctb.h"
 #include "linutil.h"
+#include "minmax.h"
+
 extern  char    alphabet[256];
 extern  uchar    decode_ASCII_to_[256][4];
 static  int            HndTab=0, HndTabInc=0;

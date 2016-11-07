@@ -75,6 +75,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "ligas.h"
 #include "lang.h"
 #include "linutil.h"	// 17.07.2001 E.P.
+#include "minmax.h"
 
 #include "compat_defs.h"
 
@@ -1759,4 +1760,3 @@ int16_t erection_cyr_language(uchar language)
 {
 return (language==PUMA_LANG_RUSSIAN);
 }
-

@@ -116,6 +116,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "lang.h"
 #include "leo.h"
 #include "std.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 

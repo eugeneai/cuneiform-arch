@@ -66,6 +66,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "lang.h"
 #include "linutil.h"
 #include "prop_nar.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 

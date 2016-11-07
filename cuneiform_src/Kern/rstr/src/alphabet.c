@@ -77,6 +77,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "linutil.h"
 #include "alphabet.h"
 #include "leo.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 
@@ -1084,4 +1085,3 @@ for(i=0;i<VertNum;i++)
   }
 return;
 }
-

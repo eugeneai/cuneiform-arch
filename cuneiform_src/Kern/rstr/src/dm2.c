@@ -74,6 +74,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "linutil.h"
 
 #include "tuner.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 

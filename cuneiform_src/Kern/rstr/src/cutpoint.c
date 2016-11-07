@@ -67,6 +67,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "status.h"
 #include "rcutp.h"
 #include "linear.h"
+#include "minmax.h"
 
 #include "compat_defs.h"
 
@@ -1891,4 +1892,3 @@ int16_t  SearchObjezd(int16_t     x,         // column number where cutting is g
    }
  return 0;
  };
-
