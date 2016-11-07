@@ -810,6 +810,7 @@ Bool32	CED_FormattedWrite(char * fileName, CEDPage *page)
 		sp2.lineBetCol=sect->lineBetCol;
 		if (!Write(hFile,(pchar)&sp2,sizeof(sp2))) goto ED_WRITE_END;
 		if (!WriteRemark(hFile,SSR_FRAG_TYPE,TP_MCOL_BEG)) goto ED_WRITE_END;
+#define MIN(x,y) ( ((x)>(y)) ? (y):(x) )
 		if (!WriteRemark(hFile,SSR_FRAG_PNUM,MIN(sect->numberOfColumns,1))) goto ED_WRITE_END;
 		//Write headers of paragraphs in rows
 		Bool32 fisrtCol=TRUE;//In order for it not to write NEW_COL in the beginning og first column
@@ -1210,4 +1211,3 @@ END:
 	}
 	return ret;
 }
-

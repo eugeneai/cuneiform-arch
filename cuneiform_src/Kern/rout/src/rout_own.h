@@ -458,7 +458,7 @@ Bool SetTableTextSeparators(char* s);
 void ResetCodeTables();
 Bool UpdateActiveCodeTable();
 long GetCodePage();
-const char * getUTF8Str(const unsigned char in, const int codepage);
+const uchar * getUTF8Str(const unsigned char in, const int codepage);
 
 //*****************************************************************
 // Rout.cpp

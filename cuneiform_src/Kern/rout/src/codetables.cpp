@@ -931,19 +931,20 @@ CP_TO_CP tab[] = {
 
 #include "utf8-tables.h"
 
-/* 
+/*
  * Return a NULL terminated string of UTF-8 characters
  * corresponding to the given character and Windows
  * codepage.
  */
 
-const char * getUTF8Str(const unsigned char in, const int codepage) {
+const uchar * getUTF8Str(const unsigned char in, const int codepage) {
+  static const uchar utf8_question[4] = {'?', 0, 0, 0};
   switch(codepage) {
   case 1250 : return win1250_to_utf8[in];
   case 1251 : return win1251_to_utf8[in];
   case 1252 : return win1252_to_utf8[in];
   case 1254 : return win1254_to_utf8[in];
   case 1257 : return win1257_to_utf8[in];
-  default : return "?";
+  default : return utf8_question;
   }
 }

@@ -79,6 +79,10 @@ using namespace std;
 #define DEFAULT_DPI 300
 #define FULL_BLACK 100
 
+#define MAX(x,y) (((x)>(y) ? (x):(y)))
+#define MIN(x,y) (((x)<(y) ? (x):(y)))
+
+
 # define IDEAL_XY(x, y)   \
          {\
              y = (int16_t) (y - (int32_t) x * nIncline / INCLINE_FACTOR);\
@@ -274,6 +278,7 @@ Bool32 findLostLines(CLINE_handle hCLINE, PAGEINFO* info)
 				   addLine(pLine, aVertLines, &vert_lines, &vert_cp, nLines, false, nIncline, hLine, 5)))
 				break;
 	}//end hLine loop
+
 
 	if (pc)
 	{

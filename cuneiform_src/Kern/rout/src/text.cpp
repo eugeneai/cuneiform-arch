@@ -310,7 +310,7 @@ Bool OneChar(Handle charHandle)
 				*gMemCur++ = c2;
 		}
 		else {
-			const char *utfchar;
+			const uchar *utfchar;
 			utfchar = getUTF8Str((char )c2, GetCodePage());
 			int i;
 			for(i=0; utfchar[i] != '\0' ;i++){

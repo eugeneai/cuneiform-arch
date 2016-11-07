@@ -68,7 +68,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #endif
 
 
-const char win1250_to_utf8[][4] = {
+const unsigned char win1250_to_utf8[][4] = {
   {0, 0, 0, 0},
   {1, 0, 0, 0},
   {2, 0, 0, 0},
@@ -328,7 +328,7 @@ const char win1250_to_utf8[][4] = {
 };
 
 
-const char win1251_to_utf8[][4] = {
+const unsigned char win1251_to_utf8[][4] = {
   {0, 0, 0, 0},
   {1, 0, 0, 0},
   {2, 0, 0, 0},
@@ -587,7 +587,7 @@ const char win1251_to_utf8[][4] = {
   {209, 143, 0, 0},
 };
 
-const char win1252_to_utf8[][4] = {
+const unsigned char win1252_to_utf8[][4] = {
   {0, 0, 0, 0},
   {1, 0, 0, 0},
   {2, 0, 0, 0},
@@ -847,7 +847,7 @@ const char win1252_to_utf8[][4] = {
 };
 
 
-const char win1254_to_utf8[][4] = {
+const unsigned char win1254_to_utf8[][4] = {
   {0, 0, 0, 0},
   {1, 0, 0, 0},
   {2, 0, 0, 0},
@@ -1107,7 +1107,7 @@ const char win1254_to_utf8[][4] = {
 };
 
 
-const char win1257_to_utf8[][4] = {
+const unsigned char win1257_to_utf8[][4] = {
   {0, 0, 0, 0},
   {1, 0, 0, 0},
   {2, 0, 0, 0},

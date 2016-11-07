@@ -71,6 +71,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "creatertf.h"
 #include "dpuma.h"
 
+#define MAX(x,y) (((x)>(y) ? (x):(y)))
+#define MIN(x,y) (((x)<(y) ? (x):(y)))
+
 extern float  Twips;
 extern uint32_t FlagMode;
 extern Bool32 FlagLineTransfer;
@@ -283,7 +286,7 @@ Bool CRtfFragment::ProcessingOverLayedFragment(RtfSectorInfo* SectorInfo)
 		pRtfString->m_wRightIndent        = 0;
 	}
 
- 
+
  for(ns=0; ns<m_wStringsCount; ns++ )
 	{
 		pRtfString = (CRtfString*)m_arStrings[ns];

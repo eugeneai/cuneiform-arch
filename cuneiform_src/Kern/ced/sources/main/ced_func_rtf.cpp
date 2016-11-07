@@ -863,6 +863,9 @@ Bool WriteRtfSection(struct StrRtfOut far *rtf, CEDSection* sect)
 	{
 	int i;
 		if (!WriteRtfControl(rtf,"cols",PARAM_INT,sect->numSnakeCols)) return FALSE;
+
+#define MAX(x,y) ((y)>(x)?(y):(x))
+
 		if (!WriteRtfControl(rtf,"colsx",PARAM_INT,MAX(sect->colInterval,0))) return FALSE;
 		//dont write column info if first width is -1, i.e. user set different-width property
 		if (sect->colInfo&&sect->colInfo[0].width>=0)

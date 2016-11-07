@@ -64,6 +64,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "stdafx.h"
 #include "rout_own.h"
 
+#define MAX(x,y) (((x)>(y) ? (x):(y)))
+#define MIN(x,y) (((x)<(y) ? (x):(y)))
+
+
 static Bool Static_TableText_Prepare(Handle hObject, long reason);
 static Bool LineEnd();
 static Bool TableText_Columns();

@@ -97,7 +97,7 @@ typedef int (* _CRT_ALLOC_HOOK) (int, void *, int, int, long, const char *, int)
 #else
 
 #include <time.h>
-#include "minmax.h"
+//#include "minmax.h"
 #include "filestuff.h"
 #include "cttypes.h" /* Most type definitions are here. */
 #include <errno.h>

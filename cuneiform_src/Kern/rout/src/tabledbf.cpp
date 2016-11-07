@@ -66,6 +66,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "rout_own.h"
 #include "dbf.h"
 
+#define MAX(x,y) (((x)>(y) ? (x):(y)))
+#define MIN(x,y) (((x)<(y) ? (x):(y)))
+
+
 static Bool TableDBF_Finish(long reason);
 static Bool MakeDbfHeader();
 static Byte DbfLanguage();
